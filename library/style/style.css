@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    color: #ffffff !important;
+    background: #1F2544 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 600;
+}
+
+.card {
+    padding: 1rem 1rem;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+    background-color: #474F7A !important;
+}
+
+.card-header {
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 10px !important;
+    background-color: #1F2544 !important;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: 800;
+}
+
+.card-body {
+    padding: 1rem 0 0 0 !important;
+}
+
+.form-label {
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+}
+
+.form-label::after {
+    color: red;
+    content: '*';
+}
+
+.form-control {
+    color: #ffffff !important;
+    background: none !important;
+    padding: .5rem 1rem !important;
+    border: 1px solid #ffffff !important;
+    font-weight: 800 !important;
+}
+
+.form-control::placeholder {
+    color: #ffffff !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #ffffff !important;
+}
+
+select.form-control {
+    text-transform: uppercase !important;
+}
+
+.form-control option {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    background: #474F7A !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    border-radius: 10px !important;
+    font-size: .8rem !important;
+    padding: .6rem 1rem !important;
+    background-color: #1F2544 !important;
+}
+
+.swal-modal {
+    color: #ffffff !important;
+    background-color: #474F7A !important;
+}
+
+.swal-icon::before,
+.swal-icon::after,
+.swal-icon--success__hide-corners {
+    display: none;
+}
+
+.swal-button,
+.swal-button:focus {
+    border: none !important;
+    font-weight: 800 !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    background-color: #1F2544 !important;
+}
+
+.swal-title {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+}
+
+.swal-text {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
